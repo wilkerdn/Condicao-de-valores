@@ -4,8 +4,8 @@ int main(){
 	int a,b,c,d;	
 	scanf("%d %d %d %d",&a,&b,&c,&d);
 	if((b>c)&&(d>a)&&(c+d>a+b)&&(c>0)&&(d>00)&&(a%2==0)){
-	printf("Valores aceitos");
+		printf("Valores aceitos");
 	}else{
-	printf("Valores nao aceitos");
+		printf("Valores nao aceitos");
 	}
 }
